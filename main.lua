@@ -410,6 +410,7 @@ function gamePause( )
 		transition.pause( )
 		physics.pause( )
 		--timer.pause( mtimer )
+		print( "is pause" )
 	else
 		MMX:play( )
 		enemy:play( )
@@ -418,6 +419,7 @@ function gamePause( )
 		transition.resume( )
 		physics.start( )
 		--timer.resume(  mtimer )
+		print( "is resume" )
 	end
 end
 
